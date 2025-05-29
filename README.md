@@ -1,99 +1,49 @@
-## Hi there 👋# First, we need to either create or load the dataset
-# Since the original code was trying to use a CSV file that doesn't exist,
-# let's create a sample dataset for demonstration
+<h2 align="left">Hi 👋! My name is ... and I'm a ..., from ....</h2>
 
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.preprocessing import LabelEncoder, StandardScaler
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report, confusion_matrix
-import missingno as msno
+###
 
-# Create a synthetic dataset for demonstration
-np.random.seed(42)
-n_samples = 1000
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=maurodesouza&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=maurodesouza&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
 
-# Generate synthetic data
-data = {
-    'age': np.random.randint(18, 70, n_samples),
-    'gender': np.random.choice(['M', 'F'], n_samples),
-    'subscription_type': np.random.choice(['Basic', 'Premium', 'Gold'], n_samples),
-    'usage_frequency': np.random.randint(0, 100, n_samples),
-    'purchase_amount': np.random.normal(50, 20, n_samples),
-    'customer_service_calls': np.random.randint(0, 10, n_samples),
-    'churn': np.random.choice([0, 1], n_samples, p=[0.8, 0.2])  # 20% churn rate
-}
+###
 
-# Create DataFrame
-df = pd.DataFrame(data)
+<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
 
-# Add some missing values for demonstration
-df.loc[np.random.choice(df.index, 50), 'age'] = np.nan
-df.loc[np.random.choice(df.index, 30), 'purchase_amount'] = np.nan
+###
 
-# Now continue with the original code
-msno.matrix(df)  # Visualize missing data
-df.dropna(inplace=True)  # Drop missing values (or use imputation)
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
+</div>
 
-# Remove duplicates
-df.drop_duplicates(inplace=True)
+###
 
-# Standardizing categorical data
-categorical_cols = ["gender", "subscription_type"]
-df[categorical_cols] = df[categorical_cols].apply(lambda x: LabelEncoder().fit_transform(x))
+<div align="left">
+  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube logo"  />
+  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
+  <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitch logo"  />
+  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
+  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+</div>
 
-# Churn distribution
-sns.countplot(x="churn", data=df)
-plt.title("Churn Distribution")
-plt.show()
+###
 
-# Correlation matrix
-plt.figure(figsize=(10,6))
-sns.heatmap(df.corr(), annot=True, cmap="coolwarm", fmt=".2f")
-plt.title("Correlation Matrix")
-plt.show()
+<br clear="both">
 
-# Churn trends by demographic group
-sns.boxplot(x="churn", y="age", data=df)
-plt.title("Age vs. Churn")
-plt.show()
+<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
 
-# Splitting dataset into features & target
-X = df.drop(columns=["churn"])  # Features
-y = df["churn"]  # Target
-
-# Train-test split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
-
-# Feature scaling
-scaler = StandardScaler()
-X_train = scaler.fit_transform(X_train)
-X_test = scaler.transform(X_test)
-
-# Train a RandomForest Model
-model = RandomForestClassifier(n_estimators=100, random_state=42)
-model.fit(X_train, y_train)
-
-# Predictions & Evaluation
-y_pred = model.predict(X_test)
-print(classification_report(y_test, y_pred))
-print(confusion_matrix(y_test, y_pred))
-
-# Feature Importance
-feature_importance = pd.DataFrame({"Feature": X.columns, "Importance": model.feature_importances_})
-feature_importance.sort_values(by="Importance", ascending=False, inplace=True)
-
-plt.figure(figsize=(8, 6))
-sns.barplot(x="Importance", y="Feature", data=feature_importance)
-plt.title("Feature Importance in Churn Prediction")
-plt.show()
-
-# Recommendations
-print("Key Insights:")
-print("- High churn rate observed in customers with low engagement.")
-print("- Subscription type and purchase frequency are strong indicators of churn.")
-print("- Consider loyalty programs for high-risk segments.")
-print("- Improve customer service and engagement strategies.")
+###
