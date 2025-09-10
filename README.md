@@ -1,12 +1,13 @@
 # 👋 Hi, I'm Mampotje Mabusela
 
-🎯 IBM, Google & Microsoft Accredited  
+🎯 IBM, Google, Cisco, Azure, CompTIA & Microsoft Accredited  
 📍 Pretoria, South Africa  
-🧠 Data Analyst | Data Scientist | AI Specialist  
+🧠 Data Analyst | Data Scientist | AI Specialist | LLM's Specialist 
 🌐 [LinkedIn](https://www.linkedin.com/in/mampotje-mabusela-760328348) | 
 📬 mampotjemabusela@gmail.com
+072 390 9947
 
----
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🚀 About Me
 
@@ -14,7 +15,7 @@ I'm a passionate AI engineer and data analyst with a strong foundation in buildi
 
 I thrive on solving complex problems with clean code, ethical data practices, and a relentless curiosity for emerging technologies.
 
----
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🧰 Core Skills
 
@@ -24,7 +25,8 @@ I thrive on solving complex problems with clean code, ethical data practices, an
 - **Cloud**: Azure, AWS  
 - **Specialties**: LLMs, Agentic Systems, Data Pipelines, Predictive Modeling, RAG, Ethical AI
 
----
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## 📦 Featured Projects
 
@@ -43,7 +45,8 @@ Retail demand forecaster for Photos Photiades Group. Combines sentiment analysis
 ### 🔹 Logistics-Optimizer
 Modular MVP for Santova’s logistics operations. Uses AI to streamline routing, inventory, and delivery forecasting.
 
----
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## 📌 What I'm Working On
 
@@ -52,13 +55,15 @@ Modular MVP for Santova’s logistics operations. Uses AI to streamline routing,
 - Designing ethical AI systems aligned with POPIA/GDPR compliance  
 - Collaborating on remote-first AI projects with global impact
 
----
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## 🤝 Let's Connect
 
 I'm always open to collaboration, mentorship, and new challenges. Feel free to fork, star, or reach out if you're working on something exciting in AI, data science, or digital transformation.
 
----
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 > “Code is a tool. Insight is the outcome. Impact is the goal.”
 
