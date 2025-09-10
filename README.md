@@ -1,65 +1,64 @@
-📊 Customer Churn Prediction
-Predicting customer churn is critical for businesses aiming to retain clients and optimize engagement strategies. This project leverages machine learning to identify patterns in customer behavior and forecast churn risk, enabling proactive decision-making.
+# 👋 Hi, I'm Mampotje Mabusela
 
-🚀 Project Overview
-This notebook demonstrates a full pipeline for churn prediction using structured customer data. It includes:
+🎯 IBM, Google & Microsoft Accredited  
+📍 Pretoria, South Africa  
+🧠 Data Analyst | Data Scientist | AI Specialist  
+🌐 [LinkedIn](https://www.linkedin.com/in/mampotje-mabusela-760328348) | 
+📬 mampotjemabusela@gmail.com
 
-Data preprocessing and feature engineering
+---
 
-Exploratory data analysis (EDA)
+## 🚀 About Me
 
-Model training and evaluation (Logistic Regression, Random Forest, XGBoost)
+I'm a passionate AI engineer and data analyst with a strong foundation in building intelligent systems using large language models (LLMs), agentic workflows, and predictive analytics. My work blends technical rigor with real-world impact—whether it's optimizing logistics, forecasting retail demand, or designing autonomous agents for strategic decision-making.
 
-Performance metrics (Accuracy, Precision, Recall, F1 Score, ROC-AUC)
+I thrive on solving complex problems with clean code, ethical data practices, and a relentless curiosity for emerging technologies.
 
-Strategic insights for business retention
+---
 
-🧠 Technologies Used
-Python: pandas, NumPy, scikit-learn, matplotlib, seaborn, XGBoost
+## 🧰 Core Skills
 
-Jupyter Notebook: for interactive development and visualization
+- **Languages**: Python, SQL, JavaScript  
+- **Frameworks**: LangChain, Hugging Face Transformers, scikit-learn, XGBoost  
+- **Tools**: Jupyter, Power BI, Streamlit, Databricks  
+- **Cloud**: Azure, AWS  
+- **Specialties**: LLMs, Agentic Systems, Data Pipelines, Predictive Modeling, RAG, Ethical AI
 
-Machine Learning: classification models with hyperparameter tuning
+---
 
-Compliance Framing: ethical data handling aligned with POPIA/GDPR principles
+## 📦 Featured Projects
 
-📁 Project Structure
-plaintext
-Customer Churn Prediction.ipynb   # Main notebook with full pipeline
-README.md                         # Project overview and documentation
-📈 Key Insights
-High churn risk correlates with low tenure, high monthly charges, and lack of contract commitment.
+### 🔹 [Customer Churn Prediction](https://github.com/MampotjeMabusela/MampotjeMabusela)
+Machine learning pipeline to forecast churn risk using structured customer data. Includes EDA, model training (Logistic Regression, Random Forest, XGBoost), and strategic insights for retention.
 
-XGBoost outperformed baseline models with superior ROC-AUC and recall—ideal for minimizing false negatives.
+### 🔹 MindRift Strategy Optimizer
+AI-powered tool for evaluating client strategy alignment across industries. Built to empower PCG consultants with faster, deeper decision-making.
 
-Feature importance analysis supports targeted retention strategies.
+### 🔹 FlowSense-AI
+Smart workflow automation advisor tailored for Ricoh’s digital workplace. Simulates automation strategies and provides explainable insights.
 
-✅ How to Run
-Clone the repository:
+### 🔹 RetailPulse-AI
+Retail demand forecaster for Photos Photiades Group. Combines sentiment analysis, dynamic pricing, and customer segmentation.
 
-bash
-git clone https://github.com/MampotjeMabusela/MampotjeMabusela.git
-Open Customer Churn Prediction.ipynb in Jupyter Notebook.
+### 🔹 Logistics-Optimizer
+Modular MVP for Santova’s logistics operations. Uses AI to streamline routing, inventory, and delivery forecasting.
 
-Run all cells sequentially to reproduce results.
+---
 
-🛡️ Ethical Considerations
-This project emphasizes responsible AI practices:
+## 📌 What I'm Working On
 
-Data anonymization and compliance with POPIA/GDPR
+- Building autonomous agents that integrate LLMs with external tools  
+- Exploring retrieval-augmented generation (RAG) for legal tech applications  
+- Designing ethical AI systems aligned with POPIA/GDPR compliance  
+- Collaborating on remote-first AI projects with global impact
 
-Transparent model evaluation
+---
 
-Avoidance of bias in predictive features
+## 🤝 Let's Connect
 
-📌 Use Cases
-Telecom and SaaS churn forecasting
+I'm always open to collaboration, mentorship, and new challenges. Feel free to fork, star, or reach out if you're working on something exciting in AI, data science, or digital transformation.
 
-Customer segmentation for retention campaigns
+---
 
-Legal tech applications in contract risk analysis
+> “Code is a tool. Insight is the outcome. Impact is the goal.”
 
-🤝 Contributions & Contact
-Feel free to fork, star, or raise issues. For collaboration or inquiries:
-
-Mampotje Mabusela Aspiring AI Specialist | Legal Tech Innovator
